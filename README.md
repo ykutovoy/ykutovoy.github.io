@@ -1,1 +1,0 @@
-# ykutovoy.github.io

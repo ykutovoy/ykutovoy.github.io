@@ -174,7 +174,7 @@
 	#bg {
 		-moz-animation: bg 60s linear infinite;
 		-webkit-animation: bg 60s linear infinite;
-		-ms-animation: bg 30s linear infinite;
+		-ms-animation: bg 60s linear infinite;
 		animation: bg 60s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
@@ -189,7 +189,6 @@
 		background: #348cb2 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
-		width: 800%;
 		left: 0;
 		opacity: 1;
 		position: fixed;
@@ -221,10 +220,10 @@
 		}
 
 		100% {
-			-moz-transform: translate3d(-2250px,0,0);
-			-webkit-transform: translate3d(-2250px,0,0);
-			-ms-transform: translate3d(-2250px,0,0);
-			transform: translate3d(-2250px,0,0);
+			-moz-transform: translate3d(-10592px,0,0);
+			-webkit-transform: translate3d(-10592px,0,0);
+			-ms-transform: translate3d(-10592px,0,0);
+			transform: translate3d(-10592px,0,0);
 		}
 	}
 
@@ -261,8 +260,8 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
-		width: 18000px;
+		background-size: 10592px auto;
+		width: 10592px;
 	}
 
 /* Overlay */
